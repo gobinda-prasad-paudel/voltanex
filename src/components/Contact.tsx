@@ -27,35 +27,22 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-  
+    
     try {
-      const response = await fetch('https://postmail.invotes.com/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          access_token: 'nnjmgrqkb7a2ku0yrp9e913y', // 🔁 replace with your Postmail token
-          subject: formData.subject,
-          text: `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`,
-          reply_to: formData.email
-        })
-      });
-  
-      if (response.ok) {
-        setSubmitStatus('success');
-        setFormData({ name: '', email: '', subject: '', message: '' });
-      } else {
-        throw new Error('Failed to send');
-      }
+      const mailtoLink = `mailto:${portfolioData.developer.email}?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+        `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
+      )}`;
+      
+      window.location.href = mailtoLink;
+      setSubmitStatus('success');
+      setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {
-      console.error(error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
     }
   };
-  
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({
       ...prev,

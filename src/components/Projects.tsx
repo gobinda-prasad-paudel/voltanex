@@ -67,7 +67,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
         
         {/* Timeline Line */}
         <div 
-          className={`absolute left-[50%] top-32 bottom-0 w-0.5 ${
+          className={`absolute left-[50%] top-32 bottom-0 w-0.5  ${
             darkMode ? 'bg-gray-700' : 'bg-gray-200'
           }`}
         >
