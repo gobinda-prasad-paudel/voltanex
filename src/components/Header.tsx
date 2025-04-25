@@ -53,7 +53,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center">
             <a href="#home" className="text-2xl font-bold font-heading text-primary-600">
-              Portfolio
+              Gobinda
             </a>
           </div>
 

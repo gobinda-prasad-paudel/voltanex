@@ -95,24 +95,24 @@ export const websites: Website[] = [
 
 export const socialLinks: SocialLink[] = [
   {
-    name: 'GitHub',
-    url: 'https://github.com/username',
-    icon: 'Github'
+    name: "GitHub",
+    url: "https://github.com/gobinda-prasad-paudel",
+    icon: "Github"
   },
   {
-    name: 'LinkedIn',
-    url: 'https://linkedin.com/in/username',
-    icon: 'Linkedin'
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/gobinda-prasad-paudel-aa9485218/",
+    icon: "Linkedin"
   },
   {
-    name: 'Twitter',
-    url: 'https://twitter.com/username',
-    icon: 'Twitter'
+    name: "Twitter",
+    url: "https://twitter.com/",
+    icon: "Twitter"
   },
   {
-    name: 'Email',
-    url: 'mailto:email@example.com',
-    icon: 'Mail'
+    name: "Email",
+    url: "mailto:gobindapaudelofficial@gmail.com",
+    icon: "Mail"
   }
 ];
 
