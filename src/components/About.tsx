@@ -84,7 +84,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
                   </li>
                   <li className="flex items-start">
                     <span className={`font-medium mr-2 ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>Experience:</span>
-                    <span className={darkMode ? 'text-white' : 'text-gray-900'}>5+ Years</span>
+                    <span className={darkMode ? 'text-white' : 'text-gray-900'}>1+ Years</span>
                   </li>
                 </ul>
               </div>

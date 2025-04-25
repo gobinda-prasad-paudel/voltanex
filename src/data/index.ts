@@ -7,17 +7,17 @@ export const projects: Project[] = [
     description: 'A full-featured e-commerce platform with product management, cart functionality, and payment processing.',
     image: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-    link: 'https://example.com/ecommerce',
-    github: 'https://github.com/username/ecommerce'
+    link: 'https://example.com/',
+    github: 'https://github.com/'
   },
   {
     id: 2,
     title: 'PTMS',
-    description: 'A productivity application for managing tasks, projects, and team collaboration.',
+    description: 'A public transportation management system that allows users to track and manage public transport schedules and routes.',
     image: 'https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['React', 'Firebase', 'Tailwind CSS'],
-    link: 'https://example.com/taskapp',
-    github: 'https://github.com/username/taskapp'
+    link: 'https://example.com/',
+    github: 'https://github.com/'
   },
   {
     id: 3,
@@ -25,8 +25,8 @@ export const projects: Project[] = [
     description: 'A real-time weather application with forecast data and location-based services.',
     image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['JavaScript', 'OpenWeather API', 'HTML/CSS'],
-    link: 'https://example.com/weatherapp',
-    github: 'https://github.com/username/weatherapp'
+    link: 'https://example.com/',
+    github: 'https://github.com/'
   },
   {
     id: 4,
@@ -34,8 +34,8 @@ export const projects: Project[] = [
     description: 'A comprehensive dashboard for managing and analyzing social media accounts and performance.',
     image: 'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['React', 'D3.js', 'Social APIs'],
-    link: 'https://example.com/dashboard',
-    github: 'https://github.com/username/dashboard'
+    link: 'https://example.com/',
+    github: 'https://github.com/'
   }
 ];
 
