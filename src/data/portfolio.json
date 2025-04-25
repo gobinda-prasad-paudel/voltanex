@@ -6,7 +6,7 @@
     "location": "Nepal",
     "description": "Passionate full-stack developer specializing in building exceptional digital experiences",
     "longDescription": "I am a full-stack developer with a passion for creating beautiful, functional, and user-friendly websites and applications. I focus on writing clean, elegant, and efficient code.",
-    "image": "/profile.jpg",
+    "image": "/src/data/images/photo1_cropped.jpg",
     "interests": ["Web Development", "UI/UX Design", "Open Source", "Cloud Computing"],
     "resumeUrl": "/resume.pdf"
   },
