@@ -6,7 +6,7 @@
     "location": "Nepal",
     "description": "Passionate full-stack developer specializing in building exceptional digital experiences",
     "longDescription": "I am a full-stack developer with a passion for creating beautiful, functional, and user-friendly websites and applications. I focus on writing clean, elegant, and efficient code.",
-    "image": "/src/data/images/photo1_cropped.jpg",
+    "image": "/images/photo1_cropped.jpg",
     "interests": ["Web Development", "UI/UX Design", "Open Source", "Cloud Computing"],
     "resumeUrl": "/resume.pdf"
   },
@@ -33,7 +33,7 @@
       "title": "PTMS",
       "stack": ["React", "TypeScript", "Node.js", "MongoDB"],
       "description": "A comprehensive task management system with real-time updates, team collaboration, and automated workflows.",
-      "image": "/src/data/images/ptms.jpg",
+      "image": "/images/ptms.jpg",
       "link": "https://example.com/tasks",
       "github": "https://github.com/username/tasks"
     },
@@ -42,7 +42,7 @@
       "title": "EduCare",
       "stack": ["Next.js", "OpenAI API", "TailwindCSS"],
       "description": "An AI-powered content generation platform that helps create high-quality articles and social media posts.",
-      "image": "/src/data/images/EduCare.jpg",
+      "image": "/images/EduCare.jpg",
       "link": "https://example.com/ai-generator",
       "github": "https://github.com/username/ai-generator"
     }

@@ -123,15 +123,9 @@ export const about = {
   longDescription: `With a background in computer science and a passion for continuous learning, I've worked with startups and established companies to deliver high-quality software solutions. My approach combines technical expertise with an eye for design and user experience.
 
 I enjoy tackling complex problems and turning ideas into reality through code. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge through technical writing and mentoring.`,
-<<<<<<< HEAD
   image: '/images/photo1_cropped.jpg',
   location: 'Nepal',
   resumeUrl: '/cv(resume).pdf'
-=======
-  image: '/data/images/photo1_cropped.jpg',
-  location: 'Nepal',
-  resumeUrl: '/data/cv(resume).pdf'
->>>>>>> 6e0feb5648a0d6c2794ed4624c52af585f483898
 };
 
 export const skills = [
