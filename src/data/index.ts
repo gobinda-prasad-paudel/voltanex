@@ -113,7 +113,12 @@ export const socialLinks: SocialLink[] = [
     name: "Email",
     url: "mailto:gobindapaudelofficial@gmail.com",
     icon: "Mail"
-  }
+  },
+  {
+    name: "Voltanex",
+    url: "https://voltanex.gobindapaudel.tech",
+    icon: "Globe"
+  },
 ];
 
 export const about = {
