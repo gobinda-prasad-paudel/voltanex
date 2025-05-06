@@ -10,7 +10,7 @@ const Team: React.FC = () => {
       subtitle="Meet the experts behind Voltanex who bring diverse skills and expertise to our research and development initiatives."
       centered
     >
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {teamMembers.map((member) => (
           <div 
             key={member.id} 
@@ -37,8 +37,8 @@ const Team: React.FC = () => {
             </div>
           </div>
         ))}
-      </div> */}
-       <div className="flex flex-wrap justify-center gap-8">
+      </div>
+       {/* <div className="flex flex-wrap justify-center gap-8">
         {teamMembers.map((member) => (
           <div 
             key={member.id} 
@@ -65,7 +65,7 @@ const Team: React.FC = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
       
       <div className="mt-16 flex justify-center">
         <div className="bg-primary-50 border border-primary-100 p-8 rounded-lg max-w-3xl text-center">
