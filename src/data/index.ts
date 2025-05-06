@@ -113,7 +113,7 @@ export const socialLinks: SocialLink[] = [
     name: "Email",
     url: "mailto:gobindapaudelofficial@gmail.com",
     icon: "Mail"
-  },
+  }
    
 ];
 
