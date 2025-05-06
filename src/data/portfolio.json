@@ -67,6 +67,11 @@
       "name": "Email",
       "url": "mailto:gobindapaudelofficial@gmail.com",
       "icon": "Mail"
-    }
+    },
+    {
+    name: "Voltanex",
+    url: "https://voltanex.gobindapaudel.tech",
+    icon: "Globe"
+  },
   ]
 }
