@@ -109,6 +109,18 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
                   Contact
                 </a>
               </li>
+              <li>
+                <a 
+                  href="https://voltanex.gobindapaudel.tech/" 
+                  className={`text-sm ${
+                    darkMode 
+                      ? 'text-gray-400 hover:text-white' 
+                      : 'text-gray-600 hover:text-primary-600'
+                  }`}
+                >
+                  Voltanex
+                </a>
+              </li>
             </ul>
           </div>
         </div>
