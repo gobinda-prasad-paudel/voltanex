@@ -60,7 +60,7 @@ export default function ContactSection() {
   }
 
   return (
-    <section id="contact" className="container py-20 bg-white dark:bg-gray-900 ">
+    <section id="contact" className="container py-20 bg-white dark:bg-gray-900 flex  ">
       <div className="dark:bg-gray-800 py-20 mx-auto px-4 rounded-lg">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
